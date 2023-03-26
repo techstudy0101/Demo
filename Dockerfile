@@ -1,5 +1,5 @@
 FROM openjdk
 WORKDIR /app
-COPY demo/target/demo-0.0.1-SNAPSHOT.jar ./
+COPY target/demoapplication ./
 EXPOSE 9001
-CMD ["java", "-jar", "-Dspring.profiles.active=local", "demo-0.0.1-SNAPSHOT.jar"]
+CMD ["java", "-jar", "-Dspring.profiles.active=local", "demoapplication"]
