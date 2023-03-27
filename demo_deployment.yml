@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: demo
-        image: techstudy0101/demoapplication
+        image: techstudy0101/demoapplication:latest
         ports:
-        - containerPort: 10000
+        - containerPort: 9005
